@@ -1,5 +1,4 @@
 const smartGarbage = function (trash, bins) {
-  //let newBins = bins
   bins[trash] += 1;
   return bins;
 }
